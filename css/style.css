@@ -2495,3 +2495,19 @@ padding:1em; }
 	  width: 100%;
 	}
 }
+/* ===== ARREGLAR IMÁGENES ===== */
+
+/* Galería de fotos */
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Otras imágenes generales */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
